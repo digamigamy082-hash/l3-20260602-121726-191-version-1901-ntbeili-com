@@ -1,16 +1,15 @@
-﻿# website-upload-20260602-121726-191
+# 经典国产剧-经典剧集合集-高清剧集持续更新
 
-Batch 191 of 38. Contains extracted static website versions. The original zip files are not committed.
+本压缩包由上传素材生成，包含首页、分类总览页、10 个独立分类页、排行榜页、片库索引页，以及 1981 个影片详情页。
 
-| Directory | Source zip |
-| --- | --- |
-| version-1901 | project-bolt-sb1-kmkes4nk-chatgpt (1).zip |
-| version-1902 | project-bolt-sb1-kmtizhs2 - 副本-chatgpt (1) (moved 1).zip |
-| version-1903 | project-bolt-sb1-kmtizhs2 - 副本-chatgpt (1).zip |
-| version-1904 | project-bolt-sb1-kmtizhs2-chatgpt (1) (moved 1).zip |
-| version-1905 | project-bolt-sb1-kmtizhs2-chatgpt (1).zip |
-| version-1906 | project-bolt-sb1-knagv3lx - 副本-chatgpt (1).zip |
-| version-1907 | project-bolt-sb1-knagv3lx-chatgpt (1) (moved 1).zip |
-| version-1908 | project-bolt-sb1-knagv3lx-chatgpt (1).zip |
-| version-1909 | project-bolt-sb1-knzlre2t - 副本-chatgpt (1) (moved 1).zip |
-| version-1910 | project-bolt-sb1-knzlre2t - 副本-chatgpt (1).zip |
+## 图片放置
+
+页面封面与首页推荐区域引用网站根目录下的 `1.jpg` 到 `150.jpg`。如果你已有这些图片，请直接放到本目录根部，与 `index.html` 同级。
+
+## 播放源
+
+详情页播放器使用上传 JS 中提取到的 m3u8 播放源，并在点击播放时初始化 HLS。
+
+## 上线入口
+
+主入口文件为：`index.html`
